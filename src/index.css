@@ -29,6 +29,20 @@ a {
   width: 80vw;
   margin: 0px auto;
 }
+section h1 {
+  font-size: 42px;
+  font-weight: 400;
+  color: #1b3764;
+  text-align: center;
+  margin-top: 120px;
+}
+.section-head-line {
+  height: 3px;
+  width: 50px;
+  background-color: #ffca42;
+  display: block;
+  margin: 20px auto 0px auto;
+}
 .section-one {
   background: #1b3764;
   color: white;
@@ -129,20 +143,6 @@ a {
   display: flex;
   margin-top: 30px;
 }
-.two-header {
-  text-align: center;
-  margin-top: 120px;
-}
-.two-header span {
-  height: 3px;
-  width: 50px;
-  background-color: #ffca42;
-  display: inline-block;
-}
-.two-header h1 {
-  font-size: 42px;
-  font-weight: 400;
-}
 .add-info p {
   font-size: 24px;
   margin-right: 60px;
@@ -176,7 +176,7 @@ a {
 .book-price {
   font-size: 22px;
   color: #ffca42;
-  margin: 7px 0px; 
+  margin: 7px 0px;
 }
 .book-info {
   color: #969aa0;
@@ -206,7 +206,7 @@ a {
   font-weight: 400;
 }
 .section-three {
-  background-color: #F5F8FC;
+  background-color: #f5f8fc;
 }
 .three-body {
   display: flex;
@@ -223,7 +223,7 @@ a {
   position: absolute;
   width: 525px;
   height: 620px;
-  transform: translate(-60px ,-60px);
+  transform: translate(-60px, -60px);
 }
 .three-right-info {
   width: 430px;
@@ -233,23 +233,158 @@ a {
   font-size: 42px;
   font-weight: 400;
   text-transform: capitalize;
+  color: #1b3764;
 }
-.three-right-info span {
+.three-right-info .line-auth {
   display: inline-block;
   width: 50px;
   height: 3px;
-  background:  #ffca42;
+  background: #ffca42;
   margin: 10px 0px 30px 0px;
 }
 .three-right-info p {
   font-weight: 400;
-  color:  #969AA0;
+  color: #969aa0;
 }
 .three-number-info {
   display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.number-info-auth h2 {
+  color: #1b3764;
+  font-size: 54px;
+}
+.number-info-auth p {
+  text-transform: capitalize;
+  padding: 0px;
+  margin: 0px;
+}
+.number-info-auth-line {
+  width: 1px;
+  height: 90px;
+  background-color: #ffca42;
 }
 .scan-box {
   display: flex;
-  background: #1B3764;
+  background: #1b3764;
   padding: 20px;
+  margin-top: 50px;
+}
+.auth-social-info {
+  margin: auto;
+}
+.auth-social-info p {
+  margin: 15px 0px;
+}
+.auth-social-info .auth-name {
+  color: #ffca42;
+  font-size: 22px;
+}
+.auth-social-info span {
+  margin-right: 15px;
+}
+.four-body {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+.four-body h3 {
+  font-size: 24px;
+  color: #1b3764;
+  font-weight: 400;
+}
+.four-body p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #969aa0;
+}
+.section-five {
+  background-color: #1b3764;
+  padding: 120px 0px;
+}
+.five-body {
+  display: flex;
+}
+.five-left {
+  width: 500px;
+}
+.five-left h2 {
+  font-size: 45px;
+  font-weight: 400;
+  color: white;
+  margin-top: 50px;
+}
+.five-left p {
+  color: #b4c7e7;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+.five-left .five-line {
+  width: 50px;
+  height: 3px;
+  background: #ffca42;
+  display: inline-block;
+  margin: 25px 0px;
+}
+.five-order-btn {
+  background-color: transparent;
+  border: 1px solid #ffca42;
+  padding: 20px 50px;
+}
+.five-order-btn a {
+  color: white;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 400;
+}
+.six-body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 110px;
+}
+.six-left-box{
+  display: flex;
+  justify-content: space-between;
+}
+.six-mini {
+  width: 280px;
+  height: 250px;
+  padding: 10px;
+  background-color: #F4F8FF;
+  margin: 10px;
+}
+.six-mini span {
+  padding: 10px 12px;
+  font-size: 24px;
+  color:#1B3764;
+  border-radius: 50%;
+  background-color: #ffca42;
+  display: inline-block;
+}
+.six-mini p {
+  color: #1B3764;
+  font-size: 24px;
+}
+.six-right {
+  width: 440px;
+  height: 540px;
+  border: 10px solid #ffca42;
+}
+.six-right img {
+  width:440px ;
+  height: 540px;
+  transform: translate(-60px, -60px);
+}
+.seven-body {
+  display: flex;
+  justify-content: space-between;
+}
+.seven-box {
+  width: 45vw;
 }

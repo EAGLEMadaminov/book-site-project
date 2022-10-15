@@ -7,6 +7,12 @@ import JohnBook from './images/IMAGE.png'
 import Atomic from './images/IMAGE(1).png'
 import ThreePerson from './images/IMAGE(2).png'
 import Scanner from './images/IMAGE(3).png'
+import FloverBook from './images/IMAGE(4).png'
+import Image5 from './images/IMAGE(5).png'
+import LogoIamge1 from './images/companilogo-image1.png'
+import LogoIamge2 from './images/companilogo-image2.png'
+import LogoIamge3 from './images/companilogo-image3.png'
+import LogoIamge4 from './images/companilogo-image4.png'
 import React from 'react'
 function App() {
   return (
@@ -114,10 +120,8 @@ function App() {
       </section>
       <section className='section-two'>
         <div className='container'>
-          <div className='two-header'>
-            <h1>The Author’s Book</h1>
-            <span></span>
-          </div>
+          <h1>The Author’s Book</h1>
+          <span className='section-head-line'></span>
           <div className='two-books'>
             <div className='section-two-body'>
               <img src={Atomic} alt='Atomic ones book' />
@@ -161,7 +165,7 @@ function App() {
           </div>
           <div className='three-right-info'>
             <h2>About the Author</h2>
-            <span></span>
+            <span className='line-auth'></span>
             <p>
               We believe that bookstores are essential to a healthy culture.
               They’re where authors can connect with readers, where we discover
@@ -173,10 +177,12 @@ function App() {
                 <h2>02</h2>
                 <p>Books published</p>
               </div>
+              <div className='number-info-auth-line'></div>
               <div className='number-info-auth'>
                 <h2>4.5</h2>
                 <p>User reviews</p>
               </div>
+              <div className='number-info-auth-line'></div>
               <div className='number-info-auth'>
                 <h2>04</h2>
                 <p>Best seller awards</p>
@@ -185,9 +191,9 @@ function App() {
             <div className='scan-box'>
               <img src={Scanner} alt='' />
               <div className='auth-social-info'>
-                <p className='auth-name'></p>
+                <p className='auth-name'>John Abraham , Ph.d</p>
                 <p>
-                  <span>Mail:</span>background: #1B3764;
+                  <span>Mail:</span>johnabraham@gmail.com
                 </p>
                 <p>
                   <span>Phone:</span>(+2) 123 545 9000
@@ -197,8 +203,185 @@ function App() {
           </div>
         </div>
       </section>
+      <section className='section-four'>
+        <div className='container'>
+          <h1>Trusted By The Best</h1>
+          <span className='section-head-line'></span>
+          <div className='four-body'>
+            <div className='four-item'>
+              <img src={LogoIamge1} alt='logo image' />
+              <h3>Amazen corp</h3>
+              <p>
+                They has been helping readers, music lovers, and videophiles
+                find quality material.
+              </p>
+            </div>
+            <div className='four-item'>
+              <img src={LogoIamge2} alt='logo image' />
+              <h3>Megan books</h3>
+              <p>
+                We help physical bookstores manage their overstock to the book
+                inventory.
+              </p>
+            </div>
+            <div className='four-item'>
+              <img src={LogoIamge3} alt='logo image' />
+              <h3>Megank</h3>
+              <p>
+                Bookstore serving up the full spectrum of Black literature and
+                wine black books.
+              </p>
+            </div>
+            <div className='four-item'>
+              <img src={LogoIamge4} alt='logo image' />
+              <h3>Urban store</h3>
+              <p>
+                We also carry the latest records, issues of all of your favorite
+                comic books.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='section-five'>
+        <div className='container five-body'>
+          <div className='five-left'>
+            <h2>Get Book Copy Today!</h2>
+            <span className='five-line'></span>
+            <p>
+              We believe that bookstores are essential to a healthy culture.
+              They’re where authors can connect with readers.
+            </p>
+            <button type='button' className='five-order-btn'>
+              <a href='#'>Order Today</a>
+            </button>
+          </div>
+          <div className='five-right'>
+            <img src={FloverBook} alt='' />
+          </div>
+        </div>
+      </section>
+      <section className='section-six'>
+        <div className='container'>
+          <h1>What Will You Learn?</h1>
+          <span className='section-head-line'></span>
+          <div className='six-body'>
+            <div className='six-left'>
+              <div className='six-left-box'>
+                <div className='six-mini'>
+                  <span>01</span>
+                  <p>
+                    Use HDFS & Map Reduce for storing & analyzing data at scale.
+                  </p>
+                </div>
+                <div className='six-mini'>
+                  <span>02</span>
+                  <p>
+                    Consume streaming data using Spark Streaming, Flink, and
+                    Storm.
+                  </p>
+                </div>
+              </div>
+              <div className='six-left-box'>
+                <div className='six-mini'>
+                  <span>03</span>
+                  <p>
+                    Choose an appropriate data storage technology for your
+                    application
+                  </p>
+                </div>
+                <div className='six-mini'>
+                  <span>04</span>
+                  <p>
+                    Analyze non-relational data using HBase, Cassandra, and
+                    MongoDB.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='six-right'>
+              <img src={Image5} alt='girl read book' />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='section-seven'>
+        <div className='container'>
+          <h1>Enhance knowledge & Vision</h1>
+          <span className='section-head-line'></span>
+          <div className='seven-body'>
+            <div className='seven-box'>
+              <h3>Chapter-1 Get Started Intro</h3>
+              <p>
+                You can double your knowledge by reading this ever needed book
+                that can last a lifetime.
+              </p>
+              <div className='size-boxs'>
+                <div className='size-box'>
+                  <span></span>
+                  <p></p>
+                </div>
+                <div className='size-box'>
+                  <span></span>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div className='seven-box'>
+              <h3>Chapter-2 The Roman Culture</h3>
+              <p>
+                It will help to improve your life career with the perfect and
+                needed knowledge about your life.
+              </p>
+              <div className='size-boxs'>
+                <div className='size-box'>
+                  <span></span>
+                  <p></p>
+                </div>
+                <div className='size-box'>
+                  <span></span>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div className='seven-box'>
+              <h3>Chapter-3 How They Servived</h3>
+              <p>
+                We wanted to create an easy, convenient way for you to get your
+                books & support.
+              </p>
+              <div className='size-boxs'>
+                <div className='size-box'>
+                  <span></span>
+                  <p></p>
+                </div>
+                <div className='size-box'>
+                  <span></span>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div className='seven-box'>
+              <h3>Chapter-4 The End Of Romans</h3>
+              <p>
+                Promote your book via Pages shop to support your writing &
+                reading career.
+              </p>
+              <div className='size-boxs'>
+                <div className='size-box'>
+                  <span></span>
+                  <p></p>
+                </div>
+                <div className='size-box'>
+                  <span></span>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
-
 export default App
