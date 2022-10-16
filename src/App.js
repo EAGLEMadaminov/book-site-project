@@ -2,6 +2,7 @@ import { FaFacebookF } from 'react-icons/fa'
 import { IoLogoTwitter } from 'react-icons/io'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { FaShoppingCart } from 'react-icons/fa'
+import { BsInstagram } from 'react-icons/bs'
 import image from './images/Vector.png'
 import JohnBook from './images/IMAGE.png'
 import Atomic from './images/IMAGE(1).png'
@@ -13,6 +14,12 @@ import LogoIamge1 from './images/companilogo-image1.png'
 import LogoIamge2 from './images/companilogo-image2.png'
 import LogoIamge3 from './images/companilogo-image3.png'
 import LogoIamge4 from './images/companilogo-image4.png'
+import SearcleImage1 from './images/IMAGE(6).png'
+import SearcleImage2 from './images/IMAGE(7).png'
+import SearcleImage3 from './images/IMAGE(8).png'
+import NineImage1 from './images/IMAGE.jpg'
+import NineImage2 from './images/IMAGE(1).jpg'
+import NineImage3 from './images/IMAGE(2).jpg'
 import React from 'react'
 function App() {
   return (
@@ -21,7 +28,7 @@ function App() {
         <div className='header'>
           <div className='logo'>
             <img src={image} alt='Book image' />
-            <h1>Pages</h1>
+            <h2>Pages</h2>
           </div>
           <ul className='social-list'>
             <li className='social-link first-icon'>
@@ -306,79 +313,364 @@ function App() {
         </div>
       </section>
       <section className='section-seven'>
-        <div className='container'>
+        <div className='container seven-container'>
           <h1>Enhance knowledge & Vision</h1>
           <span className='section-head-line'></span>
           <div className='seven-body'>
-            <div className='seven-box'>
-              <h3>Chapter-1 Get Started Intro</h3>
-              <p>
-                You can double your knowledge by reading this ever needed book
-                that can last a lifetime.
-              </p>
-              <div className='size-boxs'>
-                <div className='size-box'>
-                  <span></span>
-                  <p></p>
+            <div className='seven-boxes seven-boxes-top'>
+              <div className='seven-box'>
+                <h3>Chapter-1 Get Started Intro</h3>
+                <p>
+                  You can double your knowledge by reading this ever needed book
+                  that can last a lifetime.
+                </p>
+                <div className='size-boxs'>
+                  <div className='size-box'>
+                    <span></span>
+                    <p>Pages :</p>
+                    <dd>106pages</dd>
+                  </div>
+                  <div className='size-box'>
+                    <span></span>
+                    <p>Length :</p>
+                    <dd>2 Hours</dd>
+                  </div>
                 </div>
-                <div className='size-box'>
-                  <span></span>
-                  <p></p>
+              </div>
+              <div className='seven-box'>
+                <h3>Chapter-2 The Roman Culture</h3>
+                <p>
+                  It will help to improve your life career with the perfect and
+                  needed knowledge about your life.
+                </p>
+                <div className='size-boxs'>
+                  <div className='size-box'>
+                    <span></span>
+                    <p>Pages :</p>
+                    <dd>180pages</dd>
+                  </div>
+                  <div className='size-box'>
+                    <span></span>
+                    <p>Length :</p>
+                    <dd>3 Hour</dd>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className='seven-box'>
-              <h3>Chapter-2 The Roman Culture</h3>
-              <p>
-                It will help to improve your life career with the perfect and
-                needed knowledge about your life.
-              </p>
-              <div className='size-boxs'>
-                <div className='size-box'>
-                  <span></span>
-                  <p></p>
-                </div>
-                <div className='size-box'>
-                  <span></span>
-                  <p></p>
-                </div>
-              </div>
-            </div>
-            <div className='seven-box'>
-              <h3>Chapter-3 How They Servived</h3>
-              <p>
-                We wanted to create an easy, convenient way for you to get your
-                books & support.
-              </p>
-              <div className='size-boxs'>
-                <div className='size-box'>
-                  <span></span>
-                  <p></p>
-                </div>
-                <div className='size-box'>
-                  <span></span>
-                  <p></p>
+            <div className='seven-boxes'>
+              <div className='seven-box'>
+                <h3>Chapter-3 How They Servived</h3>
+                <p>
+                  We wanted to create an easy, convenient way for you to get
+                  your books & support.
+                </p>
+                <div className='size-boxs'>
+                  <div className='size-box'>
+                    <span></span>
+                    <p>Pages :</p>
+                    <dd>250pages</dd>
+                  </div>
+                  <div className='size-box'>
+                    <span></span>
+                    <p>Length :</p>
+                    <dd>4 Hours</dd>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className='seven-box'>
-              <h3>Chapter-4 The End Of Romans</h3>
-              <p>
-                Promote your book via Pages shop to support your writing &
-                reading career.
-              </p>
-              <div className='size-boxs'>
-                <div className='size-box'>
-                  <span></span>
-                  <p></p>
-                </div>
-                <div className='size-box'>
-                  <span></span>
-                  <p></p>
+              <div className='seven-box'>
+                <h3>Chapter-4 The End Of Romans</h3>
+                <p>
+                  Promote your book via Pages shop to support your writing &
+                  reading career.
+                </p>
+                <div className='size-boxs'>
+                  <div className='size-box'>
+                    <span></span>
+                    <p>Pages :</p>
+                    <dd>175pages</dd>
+                  </div>
+                  <div className='size-box'>
+                    <span></span>
+                    <p>Length :</p>
+                    <dd>2 Hours</dd>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <div className='seven-footer'>
+            <button className='seven-footer-btn'>
+              <a href='#'>Start a 15-Days Free Trail</a>
+            </button>
+            <p>Short description about each chapter</p>
+            <p>
+              <a href='#' className='seven-question'>
+                Have any questions?
+              </a>
+              Contact us
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className='section-eight'>
+        <div className='container eight-body'>
+          <div className='eight-left-info'>
+            <h2>Words From Our</h2>
+            <h2>Readers</h2>
+            <span className='eight-line'></span>
+            <p>
+              We believe that bookstores are essential to a healthy culture.
+              They’re where authors can connect with readers, where we discover
+              new writers, where children get hooked on the thrill of reading
+              that can last a lifetime.
+            </p>
+            <div className='mini-searcles'>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <div className='left-single-box'>
+                <span></span>
+              </div>{' '}
+              <dd>(4.8/5)</dd>
+              <p>Overall Customer Ratings</p>
+            </div>
+          </div>
+          <div className='eight-right'>
+            <div className='eight-image-box'>
+              <div className='eight-single-box'>
+                <div className='eight-auth-info'>
+                  <div className='searcle-img'>
+                    <img src={SearcleImage1} alt='searcle image 1' />
+                  </div>
+                  <div className='searcle-info'>
+                    <h3>James Williams</h3>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span className=' right-single-box'></span>
+                  </div>
+                </div>
+                <q> Great Books Collections</q>
+                <p>
+                  I was searching this book for many years and I was happy that
+                  I could find it here.
+                </p>
+              </div>
+              <div className='eight-single-box'>
+                <div className='eight-auth-info'>
+                  <div className='searcle-img'>
+                    <img src={SearcleImage2} alt='searcle image 2' />
+                  </div>
+                  <div className='searcle-info'>
+                    <h3>Chris Adams</h3>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span className='single-searcle'></span>
+                  </div>
+                </div>
+                <q> Perfect Response Author</q>
+                <p>
+                  I had a question about the book and the author response was
+                  great & comfort.
+                </p>
+              </div>
+            </div>
+            <div className='eight-image-box'>
+              <div className='eight-single-box'>
+                <div className='eight-auth-info'>
+                  <div className='searcle-img'>
+                    <img src={SearcleImage3} alt='searcle image 3' />
+                  </div>
+                  <div className='searcle-info'>
+                    <h3>Angeline Flora</h3>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span className='right-single-box '></span>
+                  </div>
+                </div>
+                <q> Creative Writing Skill</q>
+                <p>
+                  Sent an email after to books arrived to ask about the author &
+                  I received a reply.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='section-nine'>
+        <h1>Articles & Resources</h1>
+        <span className='section-head-line'></span>
+        <div className='container'>
+          <div className='nine-boxes'>
+            <div className='nine-body-info'>
+              <img src={NineImage1} alt='image' />
+              <h3>Significant reading has more info number</h3>
+              <p>
+                Override the digital divide with additional clickthroughs from
+                DevOps for real-time schemas.
+              </p>
+              <div className='nine-box-link'>
+                <a href='#'>Readmore</a>
+                <p>October 6, 2021</p>
+              </div>
+            </div>
+            <div className='nine-body-info'>
+              <img src={NineImage2} alt='image' />
+              <h3>Many variations of pass majority have suffered</h3>
+              <p>
+                Capitalize on low-hanging fruit to identify a ballpark
+                value-added activity to beta test.
+              </p>
+              <div className='nine-box-link'>
+                <a href='#'>Readmore</a>
+                <p>October 6, 2021</p>
+              </div>
+            </div>
+            <div className='nine-body-info'>
+              <img src={NineImage3} alt='image' />
+              <h3>Words which don’t look even slightly believable</h3>
+              <p>
+                Podcasting operational change management inside of workflows to
+                establish a framework.
+              </p>
+              <div className='nine-box-link'>
+                <a href='#'>Readmore</a>
+                <p>October 6, 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='section-ten'>
+        <div className='container ten-body'>
+          <h1>Get The Best Updates</h1>
+          <span className='section-head-line'></span>
+          <p>
+            Subscribe with your mail id to know the current update in book
+            edition at your fingertip with in a minute.
+          </p>
+          <div className='ten-btn'>
+            <input
+              type='email'
+              name='email'
+              id='email'
+              placeholder='Your Email ID...'
+            />
+            <button className='ten-btn'>Subscribe</button>
+          </div>
+        </div>
+      </section>
+      <section className='section-footer'>
+        <div className='footer'>
+          <div className='footer-box'>
+            <div className='footer-social-icon'>
+              <img src={image} alt='' />
+              <h3>Pages</h3>
+            </div>
+            <div className='footer-social-icon'>
+              <a href='#'>
+                <FaFacebookF />
+              </a>
+              <a href='#'>
+                <IoLogoTwitter />
+              </a>
+              <a href='#'>
+                <FaLinkedinIn />
+              </a>
+              <a href='#'>
+                <BsInstagram />
+              </a>
+            </div>
+          </div>
+          <div className='footer-box'>
+            <h2>Explore</h2>
+            <div className='footer-link'>
+              <span></span>
+              <span></span>
+              <span></span> <a href='#'>Home</a>
+            </div>
+            <div className='footer-link'>
+              <span></span>
+              <span></span>
+              <span></span>
+              <a href='#'>About</a>
+            </div>
+            <div className='footer-link'>
+              <span></span>
+              <span></span>
+              <span></span>
+              <a href='#'>Articles</a>
+            </div>
+            <div className='footer-link'>
+              <span></span>
+              <span></span>
+              <span></span>
+              <a href='#'>Our Store</a>
+            </div>
+            <div className='footer-link'>
+              <span></span>
+              <span></span>
+              <span></span>
+              <a href='#'>Contact Us</a>
+            </div>
+          </div>
+          <div className='footer-box'>
+            <h2>Utility Pages</h2>
+            <div className='footer-link'>
+              <span></span>
+              <span></span>
+              <span></span> <a href='#'>Style Guide</a>
+            </div>
+            <div className='footer-link'>
+              <span></span>
+              <span></span>
+              <span></span>
+              <a href='#'>404 Not Found</a>
+            </div>
+            <div className='footer-link'>
+              <span></span>
+              <span></span>
+              <span></span>
+              <a href='#'>Password Protected</a>
+            </div>
+            <div className='footer-link'>
+              <span></span>
+              <span></span>
+              <span></span>
+              <a href='#'>Licenses</a>
+            </div>
+            <div className='footer-link'>
+              <span></span>
+              <span></span>
+              <span></span>
+              <a href='#'>Changelog</a>
+            </div>
+          </div>
+          <div className='footer-box'>
+            <h2>Keep in Touch</h2>
+            <div className='footer-right-box'>
+              <div className='address-box'>
+                <b>Address:</b>
+                <b className='mail'>Mail:</b>
+                <b>Phone:</b>
+              </div>
+              <div className='address-box'>
+                <p>24A Kingston St, Los Vegas NC 28202, USA.</p>
+                <p>support@pages.com</p>
+                <p>(+22) 123 - 4567 - 900</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='last-footer-info'>
+          <p>© Drafted by VictorFlow - Powered by Webflow</p>
         </div>
       </section>
     </div>
